@@ -3,3 +3,5 @@ RECOVER*.fla
 *.iml
 *.apk
 *.swf
+.actionScriptProperties
+.project
