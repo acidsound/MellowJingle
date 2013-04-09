@@ -32,7 +32,9 @@
     </initialWindow>
     <customUpdateUI>false</customUpdateUI>
     <allowBrowserInvocation>false</allowBrowserInvocation>
-    <icon></icon>
+    <icon>
+        <image114x114>design/NosatlgicJingleIcon.png</image114x114>
+    </icon>
     <iPhone>
         <requestedDisplayResolution>high</requestedDisplayResolution>
         <InfoAdditions><![CDATA[<key>UIDeviceFamily</key><array><string>1</string></array>]]></InfoAdditions>
