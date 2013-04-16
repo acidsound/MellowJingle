@@ -4,3 +4,4 @@ RECOVER*.fla
 *.swf
 .actionScriptProperties
 .project
+media/*
