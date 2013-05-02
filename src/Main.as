@@ -41,13 +41,19 @@ public class Main extends MovieClip {
   public function Main() {
     stage.scaleMode = StageScaleMode.NO_SCALE;
     var longerOne = stage.fullScreenWidth > stage.fullScreenHeight ? stage.fullScreenWidth : stage.fullScreenHeight;
-    trace(width + "/" + height);
-    trace(stage.fullScreenHeight);
-    if ((longerOne == 1024) || (longerOne == 480) || (longerOne < 960)) {
+    trace("os: " + os);
+    trace("DPI: " + Capabilities.screenDPI);
+    trace("width/height: " + width + "/" + height);
+    trace("x/y: " + x + ":" + y);
+    trace("stage.fullScreenWidth/Height: " + stage.fullScreenWidth + "/" + stage.fullScreenHeight);
+    trace("stage.width/height: " + stage.width + "/" + stage.height);
+    trace("stage.stageWidth/stage.stageHeight: " + stage.stageWidth + "/" + stage.stageHeight);
+
+    if (Capabilities.screenDPI < 240) {
       scaleX = 0.5;
       scaleY = 0.5;
-      x = stage.fullScreenWidth * scaleX;
-      y = stage.fullScreenHeight * scaleY;
+      x = stage.stageWidth * scaleX * scaleX;
+      y = stage.stageHeight * scaleY * scaleY;
     }
     addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
     addEventListener(Event.ENTER_FRAME, onEnterFrame);
