@@ -56,12 +56,6 @@ public class Main extends MovieClip {
     gotoAndStop(frames["swipeleftDone"]);
     TrackInformation = TrackFrame.TrackText.TrackInformationText.htmlText;
 
-    if (os.indexOf("iPhone") < 0) {
-      SaveFrame.SaveMessageSymbol.iOSSaveMessageText.visible = false;
-    } else {
-      SaveFrame.SaveMessageSymbol.AndroidSaveMessageText.visible = false;
-    }
-
     PlaySymbol.addEventListener(MouseEvent.MOUSE_DOWN, onPlaySymbolDown);
     PlaySymbol.addEventListener(MouseEvent.MOUSE_UP, onPlaySymbolUp);
     PlaySymbol.addEventListener(MouseEvent.RELEASE_OUTSIDE, onPlaySymbolUp);
