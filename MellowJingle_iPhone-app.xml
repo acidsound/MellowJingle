@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <application xmlns="http://ns.adobe.com/air/application/3.4">
-    <id>com.appsoulute.mellowjinglev1</id>
+    <id>com.appsoulute.mellowjing.session01</id>
     <versionNumber>1.0</versionNumber>
     <filename>MellowJingle</filename>
     <description></description>
@@ -33,6 +33,15 @@
     <allowBrowserInvocation>false</allowBrowserInvocation>
     <icon>
         <image114x114>design/MellowJingleIcon.png</image114x114>
+        <image29x29>icons/MellowJingleIcon_29.png</image29x29>
+        <image57x57>icons/MellowJingleIcon_57.png</image57x57>
+        <image512x512>icons/MellowJingleIcon_512.png</image512x512>
+        <image48x48>icons/MellowJingleIcon_48.png</image48x48>
+        <image72x72>icons/MellowJingleIcon_72.png</image72x72>
+        <image50x50>icons/MellowJingleIcon_50.png</image50x50>
+        <image100x100>icons/MellowJingleIcon_100.png</image100x100>
+        <image144x144>icons/MellowJingleIcon_144.png</image144x144>
+        <image1024x1024>design/AppStore/MellowJingle_Icon_1024x1024.png</image1024x1024>
     </icon>
     <iPhone>
         <requestedDisplayResolution>high</requestedDisplayResolution>

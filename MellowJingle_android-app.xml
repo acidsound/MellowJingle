@@ -33,6 +33,7 @@
     <allowBrowserInvocation>false</allowBrowserInvocation>
     <icon>
         <image72x72>design/MellowJingleIcon72.png</image72x72>
+        <image48x48>icons/MellowJingleIcon_48.png</image48x48>
     </icon>
     <android>
         <manifestAdditions><![CDATA[

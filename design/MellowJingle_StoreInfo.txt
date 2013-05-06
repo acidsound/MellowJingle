@@ -1,0 +1,117 @@
+iOS - iTunes
+------------------------------------------
+
+Version Information
+
+	Version Number : 1.0
+	Copyright : Appsoulute
+	Primary Category : Music
+	Secondary Category : Lifestyle
+
+Rating
+	All None
+
+Metadata
+	Description : Mellow Jingle is an application allows you to download special ringtones to your iPhone/iPod/iPad directly. 33 Ringtones of Mellow Jingle are produced by DJ Magik Cool J - Producer, DJ and Composer of Aquibird, Cloudancer. Note: You need to sync with iTunes to get the ringtones into the Settings section of your device.
+
+	Keywords : Ringtone, Jingle, Aquibird, Cloudancer, Appsoulute
+	Support URL : http://mellowjingle.appsoulute.com
+	Marketing URL (Optional) : none
+	Privacy Policy URL (Optional) :
+
+App Review Information
+	Contact Information
+
+	First Name : Jae Ho
+	Last Name : Lee
+	Email Address : contact@appsoulute.com
+	Phone Number : 82 10 5022 2906
+
+	Review Notes (Optional) : None
+
+	Demo Account Information (Optional)
+	Username : None
+	Password : None
+
+EULA
+	None
+
+Uploads
+
+	Large App Icon : 1024x1024
+	3.5-Inch Retina Display Screenshots : 640x960 or 640x920 , 960x640 or 920x640
+	4-Inch Retina Display Screenshots : 640x1136 or 640x1096 , 1136x640 or 1096x640
+	iPad Screenshots : 1024x768 or 1024x748 or 1004x768 or 1004x748 (20px padding), 2048x1496 or 2048x1536 (40px padding)
+
+Routing App Coverage File (Optional)
+	?
+
+
+
+
+
+Android - PlayStore
+------------------------------------------
+
+PRODUCT DETAILS
+	Title : Mellow Jingle
+	Description : Mellow Jingle is an application allows you to download special ringtones to your iPhone/iPod/iPad directly. 33 Ringtones of Mellow Jingle are produced by DJ Magik Cool J - Producer, DJ and Composer of Aquibird, Cloudancer.
+	Promo text : Mellow Ringtone from DJ Magik Cool J
+	Recent changes : None
+
+GRAPHIC ASSETS
+	Screenshots : 320 x 480 or 480 x 800 or 480 x 854 or 1280 x 720 or 1280 x 800. JPG or 24-bit PNG (no alpha)
+	High-res icon : 512 x 512 32-bit PNG (with alpha)
+	Feature Graphic : 1024 w x 500 h JPG or 24-bit PNG (no alpha)
+	Promo Graphic : 180 w x 120 h JPG or 24-bit PNG (no alpha)
+	Promo Video : YouTube video
+
+CATEGORIZATION
+	Application type : Applictions 	
+	Category : Music & Audio
+	Content rating : Everyone
+
+CONTACT DETAILS
+	Website : http://appsoulute.com 	
+	Email : contact@appsoulute.com
+	Phone : None	
+
+PRIVACY POLICY 
+	Link to policy : None 
+
+
+
+
+
+
+
+
+------------------------------------------
+AppStore
+1) MellowJingle_Icon_1024x1024.png
+2) MellowJingle_iPad Screenshots01_2048x1536.png
+     MellowJingle_iPad Screenshots02_2048x1536.png
+     MellowJingle_iPad Screenshots03_2048x1536.png
+3) MellowJingle_iPadScreenshots01_1024x768.png
+     MellowJingle_iPadScreenshots02_1024x768.png
+     MellowJingle_iPadScreenshots03_1024x768.png
+4) MellowJingle_4-InchRetinaDisplayScreenshots01_640x1136.png
+     MellowJingle_4-InchRetinaDisplayScreenshots02_640x1136.png
+     MellowJingle_4-InchRetinaDisplayScreenshots03_640x1136.png
+5) MellowJingle_4-InchRetinaDisplayScreenshots01_1136x640.png
+     MellowJingle_4-InchRetinaDisplayScreenshots02_1136x640.png
+     MellowJingle_4-InchRetinaDisplayScreenshots03_1136x640.png
+6) MellowJingle_3.5-InchRetinaDisplayScreenshots01_960x640.png
+     MellowJingle_3.5-InchRetinaDisplayScreenshots02_960x640.png
+     MellowJingle_3.5-InchRetinaDisplayScreenshots03_960x640.png
+7) MellowJingle_3.5-InchRetinaDisplayScreenshots01_640x960.png
+     MellowJingle_3.5-InchRetinaDisplayScreenshots02_640x960.png
+     MellowJingle_3.5-InchRetinaDisplayScreenshots03_640x960.png
+
+PlayStore
+1) MellowJingle_Icon_512x512.png
+2) MellowJingle_Screenshots01_1280x800.png
+     MellowJingle_Screenshots02_1280x800.png
+     MellowJingle_Screenshots03_1280x800.png
+3) MellowJingle_FeatureGraphic_1024x500.png
+4) MellowJingle_PromoGraphic_180x120.png
