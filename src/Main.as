@@ -72,8 +72,6 @@ public class Main extends MovieClip {
     AboutSymbol.addEventListener(MouseEvent.MOUSE_UP, onAboutSymbolUp);
     AboutSymbol.addEventListener(MouseEvent.RELEASE_OUTSIDE, onAboutSymbolUp);
 
-    AboutFrame.addEventListener(MouseEvent.CLICK, onAboutFrameClick);
-
     SaveSymbol.addEventListener(MouseEvent.MOUSE_DOWN, onSaveSymbolDown);
     SaveSymbol.addEventListener(MouseEvent.MOUSE_UP, onSaveSymbolUp);
     SaveSymbol.addEventListener(MouseEvent.RELEASE_OUTSIDE, onSaveSymbolUp);
@@ -82,12 +80,15 @@ public class Main extends MovieClip {
     SaveFrame.SaveMessageSymbol.DownloadSymbol.addEventListener(MouseEvent.MOUSE_UP, onDownloadSymbolUp);
     SaveFrame.SaveMessageSymbol.DownloadSymbol.addEventListener(MouseEvent.RELEASE_OUTSIDE, onDownloadSymbolUp);
 
+    SaveFrame.SaveMessageSymbol.DoneSymbol.addEventListener(MouseEvent.CLICK, onBackgroundUp);
+    SaveFrame.SaveMessageSymbol.FailedSymbol.addEventListener(MouseEvent.CLICK, onBackgroundUp);
+
+    BackgroundMovieClip.addEventListener(MouseEvent.CLICK, onBackgroundUp);
+
     // touch-Disable pressed symbols
     for each (var disabledSymbol in [
       AboutDownSymbol, PreviousDownSymbol, PlayDownSymbol, PauseDownSymbol, NextDownSymbol,
-      SaveFrame.SaveMessageSymbol.DownloadDownSymbol,
-      SaveFrame.SaveMessageSymbol.DoneSymbol,
-      SaveFrame.SaveMessageSymbol.FailedSymbol]) {
+      SaveFrame.SaveMessageSymbol.DownloadDownSymbol]) {
       disabledSymbol.mouseEnabled = false;
       disabledSymbol.mouseChildren = false;
     }
@@ -220,7 +221,6 @@ public class Main extends MovieClip {
   }
 
   private function onSaveSymbolDown(e:Event) {
-    isDone = false;
     SaveFrame.SaveMessageSymbol.DownloadSymbol.visible = true;
     SaveFrame.SaveMessageSymbol.DownloadDownSymbol.visible = false;
   }
@@ -228,11 +228,13 @@ public class Main extends MovieClip {
   private function onSaveSymbolUp(e:MouseEvent) {
     if (e.type == "mouseUp") {
       gotoAndPlay(frames["save"]);
+      isDone = false;
+      SaveFrame.SaveMessageSymbol.DownloadSymbol.alpha = 1;
+      SaveFrame.SaveMessageSymbol.DownloadSymbol.visible = true;
+      SaveFrame.SaveMessageSymbol.DownloadDownSymbol.visible = false;
+      SaveFrame.SaveMessageSymbol.DoneSymbol.visible = false;
+      SaveFrame.SaveMessageSymbol.FailedSymbol.visible = false;
     }
-  }
-
-  private function onAboutFrameClick(e:Event) {
-    AboutFrame.visible = false;
   }
 
   private function onDownloadSymbolDown(e:MouseEvent) {
@@ -281,25 +283,12 @@ public class Main extends MovieClip {
     if (currentFrame == frames["swipeleftDone"] || currentFrame == frames["swipeRightDone"] || currentFrame == frames["saveDone"] || currentFrame == frames["aboutDone"]) {
       prevPlayIndex = playIndex;
       stop();
-      if (currentFrame == frames["saveDone"] || currentFrame == frames["aboutDone"]) {
-        stage.addEventListener(MouseEvent.MOUSE_UP, onBackgroundUp);
-      }
     }
   }
 
   private function onBackgroundUp(e:MouseEvent) {
-    if (isDone) {
-      isDone = false;
-    } else {
-      gotoAndStop(frames["swipeleftDone"]);
-      setCurrentJingle();
-      stage.removeEventListener(MouseEvent.MOUSE_UP, onBackgroundUp);
-      SaveFrame.SaveMessageSymbol.DownloadSymbol.visible = visible;
-      SaveFrame.SaveMessageSymbol.DownloadDownSymbol.visible = false;
-      SaveFrame.SaveMessageSymbol.DoneSymbol.visible = false;
-      SaveFrame.SaveMessageSymbol.FailedSymbol.visible = false;
-      SaveFrame.SaveMessageSymbol.DownloadSymbol.alpha = 1;
-    }
+    gotoAndStop(frames["swipeleftDone"]);
+    setCurrentJingle();
   }
 }
 
