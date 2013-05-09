@@ -55,7 +55,7 @@ Android - PlayStore
 
 PRODUCT DETAILS
 	Title : Mellow Jingle
-	Description : Mellow Jingle is an application allows you to download special ringtones to your iPhone/iPod/iPad directly. 33 Ringtones of Mellow Jingle are produced by DJ Magik Cool J - Producer, DJ and Composer of Aquibird, Cloudancer.
+	Description : Mellow Jingle is an application allows you to download special ringtones to your Android directly. 33 Ringtones of Mellow Jingle are produced by DJ Magik Cool J - Producer, DJ and Composer of Aquibird, Cloudancer.
 	Promo text : Mellow Ringtone from DJ Magik Cool J
 	Recent changes : None
 
